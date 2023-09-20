@@ -11,6 +11,6 @@ namespace GroceryApp.Database
         public DbSet<Categories> Categories { get; set; }
         public DbSet<Subcategories> Subcategories { get; set; }
         public DbSet<Products> Products { get; set; }
-
+        
     }
 }

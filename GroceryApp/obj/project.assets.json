@@ -7497,23 +7497,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jjames\\.nuget\\packages\\": {},
+    "C:\\Users\\rsuresh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jjames\\OneDrive - SOTI Inc\\Desktop\\Project-Training\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+      "projectUniqueName": "C:\\Users\\rsuresh\\OneDrive - SOTI Inc\\Desktop\\Training\\Capstone Project New\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
       "projectName": "GroceryApp",
-      "projectPath": "C:\\Users\\jjames\\OneDrive - SOTI Inc\\Desktop\\Project-Training\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
-      "packagesPath": "C:\\Users\\jjames\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jjames\\OneDrive - SOTI Inc\\Desktop\\Project-Training\\GroceryApp_Backend\\GroceryApp\\obj\\",
+      "projectPath": "C:\\Users\\rsuresh\\OneDrive - SOTI Inc\\Desktop\\Training\\Capstone Project New\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+      "packagesPath": "C:\\Users\\rsuresh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rsuresh\\OneDrive - SOTI Inc\\Desktop\\Training\\Capstone Project New\\GroceryApp_Backend\\GroceryApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jjames\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rsuresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

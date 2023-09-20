@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\jjames\\OneDrive - SOTI Inc\\Desktop\\Training-Project\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\jjames\\OneDrive - SOTI Inc\\Desktop\\Training-Project\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
         "packagesPath": "C:\\Users\\jjames\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jjames\\OneDrive - SOTI Inc\\Desktop\\Training-Project\\GroceryApp_Backend\\GroceryApp\\obj\\",
+=======
+    "C:\\Users\\falex\\OneDrive - SOTI Inc\\Desktop\\training\\project\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\falex\\OneDrive - SOTI Inc\\Desktop\\training\\project\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\falex\\OneDrive - SOTI Inc\\Desktop\\training\\project\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+        "projectName": "GroceryApp",
+        "projectPath": "C:\\Users\\falex\\OneDrive - SOTI Inc\\Desktop\\training\\project\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+        "packagesPath": "C:\\Users\\falex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\falex\\OneDrive - SOTI Inc\\Desktop\\training\\project\\GroceryApp_Backend\\GroceryApp\\obj\\",
+>>>>>>> e16fa2d6ff2283a8063e2ee926ad4c0d96fbd5a0
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\jjames\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\falex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> e16fa2d6ff2283a8063e2ee926ad4c0d96fbd5a0
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

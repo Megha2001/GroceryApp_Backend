@@ -12,6 +12,7 @@ namespace GroceryApp.Models
         public int UnitsinStock { get; set; }
         public string UnitType { get; set; }
         public int Discontinued { get; set; }
+        public Categories Category { get; set; }
         public Subcategories Subcategory { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }

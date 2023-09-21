@@ -1,4 +1,5 @@
 using GroceryApp.Database;
+using GroceryApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddTransient<IProductService, ProductServiceImpl>();
+builder.Services.AddTransient<ICategoryService, CategoryServiceImpl>();
+builder.Services.AddTransient<ISubcategoryService, SubcategoryServiceImpl>();
 
 builder.Services.AddDbContextPool<AppDbContext>(options =>
 {

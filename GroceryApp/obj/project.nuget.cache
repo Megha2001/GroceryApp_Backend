@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sLBTjL0GS2oHGqY7jpJro16jNfFfhUjfVYJZsTmeFR+rkwRc+wuCjv4qrxLWSLQIj5aeSaVTvu/zjvmO1zOSLg==",
+  "dgSpecHash": "Eq6pSnpxHqcgbHxVCL11QSYZIT4/wSv76Q5NA7eg1OapNfJ4gNoWuH5IDIDoPBCkyXc8Fis71NGzHl6GqMx50Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp1\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+  "projectFilePath": "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp2\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mt\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mt\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512",

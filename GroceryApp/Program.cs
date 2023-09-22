@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IProductService, ProductServiceImpl>();
 builder.Services.AddTransient<ICategoryService, CategoryServiceImpl>();
 builder.Services.AddTransient<ISubcategoryService, SubcategoryServiceImpl>();
+builder.Services.AddTransient<IUserService, UserServiceImpl>();
 
 builder.Services.AddDbContextPool<AppDbContext>(options =>
 {

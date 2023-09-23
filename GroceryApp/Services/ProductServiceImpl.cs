@@ -28,7 +28,7 @@ namespace GroceryApp.Services
 
         public List<Products> GetAllProducts()
         {
-            return _context.Products.Select(p => new Products { Id = p.Id, ProductName = p.ProductName, ProductUrl=p.ProductUrl,UnitPrice=p.UnitPrice, DiscountedPrice=p.DiscountedPrice, Subcategory = p.Subcategory, Category = p.Category}).ToList();
+            return _context.Products.Select(p => new Products { Id = p.Id, ProductName = p.ProductName, ProductUrl=p.ProductUrl,UnitPrice=p.UnitPrice, DiscountedPrice=p.DiscountedPrice, Subcategory = p.Subcategory, Category = p.Category, UnitType=p.UnitType}).ToList();
         }
 
         public Products GetProductById(int id)

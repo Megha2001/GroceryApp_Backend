@@ -23,15 +23,12 @@ builder.Services.AddDbContextPool<AppDbContext>(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(
-        policy =>
-        {
-            policy.WithOrigins("http://localhost:4200");
-            policy.AllowAnyMethod();
-            policy.AllowAnyHeader();
-        });
+   
+    options.AddPolicy("AllowSpecificOrigin",
+           builder => builder.WithOrigins("http://localhost:4200")
+                             .AllowAnyHeader()
+                             .AllowAnyMethod().AllowCredentials());
 });
-
 
 var app = builder.Build();
 
@@ -42,8 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors();
-
+app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 
 app.MapControllers();

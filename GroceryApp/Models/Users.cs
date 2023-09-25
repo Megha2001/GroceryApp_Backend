@@ -12,7 +12,7 @@ namespace GroceryApp.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public string Gender { get; set; }
-        [DataType(DataType.Date)]
+        //[DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
         public string MobileNo { get; set; }
         public DateTime CreatedDate { get; set; }

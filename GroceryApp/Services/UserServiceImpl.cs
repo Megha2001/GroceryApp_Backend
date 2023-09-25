@@ -12,7 +12,9 @@ namespace GroceryApp.Services
         }
         public Users LoginUser(string email, string password)
         {
-            Users user = _context.Users.FirstOrDefault(x=>x.Email==email&&x.Password==password);
+            Console.WriteLine(email);
+
+            Users user = _context.Users.FirstOrDefault(x => x.Email == email && x.Password == password);
             if (user != null)
                 return user;
             return null;
@@ -20,9 +22,20 @@ namespace GroceryApp.Services
 
         public Users RegisterUser(Users user)
         {
-            _context.Users.Add(user);
-            _context.SaveChanges();
-            return user;
+            try
+            {
+                if (user != null)
+                {
+                    _context.Users.Add(user);
+                    _context.SaveChanges();
+                    return user;
+                }
+                return null;
+         
+            }catch(Exception e)
+            {
+                return null;
+            }
         }
     }
 }

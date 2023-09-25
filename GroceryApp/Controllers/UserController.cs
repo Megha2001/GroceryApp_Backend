@@ -15,20 +15,48 @@ namespace GroceryApp.Controllers
             this.userService = userService;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public IActionResult Post(Users user)
         {
+            user.CreatedDate =  DateTime.Now;
+
             var data = userService.RegisterUser(user);
-            return Ok(data);
+            if (data != null)
+            {
+                return Ok(data);
+            }
+            else
+                return BadRequest(new
+                {
+                    status = "fail",
+                    message = "User already exists",
+                    //    token = "your-auth-token",  Replace with the actual token
+                          });
         }
 
-        [HttpGet]
-        public IActionResult Get(string email, string password)
+        [HttpPost("login")]
+        public IActionResult Post(Login user)
         {
-            var data = userService.LoginUser(email, password);
+            
+            Users data = userService.LoginUser(user.Email,user.Password);
+
             if (data == null)
-                return NotFound();
-            return Ok(data);
+            {
+                return BadRequest(new
+                {
+                    status = "error",
+                    message = "Invalid email or password"
+                });
+            }
+           
+            return Ok(new
+            {
+                status = "success",
+                message = "Login successful",
+            //    token = "your-auth-token",  Replace with the actual token
+                user = data
+                
+            });
         }
     }
 }

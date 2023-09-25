@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp1\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {}
+    "C:\\Users\\tsunny\\OneDrive - SOTI Inc\\Desktop\\Grocery\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp1\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {
+    "C:\\Users\\tsunny\\OneDrive - SOTI Inc\\Desktop\\Grocery\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp1\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+        "projectUniqueName": "C:\\Users\\tsunny\\OneDrive - SOTI Inc\\Desktop\\Grocery\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
         "projectName": "GroceryApp",
-        "projectPath": "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp1\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
-        "packagesPath": "C:\\Users\\mt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mt\\OneDrive - SOTI Inc\\Desktop\\Training\\GroceryApp1\\GroceryApp_Backend\\GroceryApp\\obj\\",
+        "projectPath": "C:\\Users\\tsunny\\OneDrive - SOTI Inc\\Desktop\\Grocery\\GroceryApp_Backend\\GroceryApp\\GroceryApp.csproj",
+        "packagesPath": "C:\\Users\\tsunny\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tsunny\\OneDrive - SOTI Inc\\Desktop\\Grocery\\GroceryApp_Backend\\GroceryApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tsunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.308\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,6 +75,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -82,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }

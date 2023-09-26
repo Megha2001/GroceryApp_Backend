@@ -52,8 +52,7 @@ namespace GroceryApp.Controllers
             return Ok(new
             {
                 status = "success",
-                message = "Login successful",
-            //    token = "your-auth-token",  Replace with the actual token
+                message = "Login successful",  
                 user = data
                 
             });

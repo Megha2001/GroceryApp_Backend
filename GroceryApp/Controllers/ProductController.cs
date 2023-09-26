@@ -36,6 +36,7 @@ namespace GroceryApp.Controllers
             return Ok(data);
         }
 
+
         [HttpPost]
         public IActionResult Post(Products product)
         {
@@ -47,6 +48,14 @@ namespace GroceryApp.Controllers
         public IActionResult Put(int id)
         {
             var data = productService.EditProduct(id);
+            return Ok(data);
+        }
+
+
+        [HttpGet("search")]
+        public IActionResult Get(string name)
+        {
+            var data = productService.SearchProduct(name);
             return Ok(data);
         }
 

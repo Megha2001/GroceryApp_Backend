@@ -52,7 +52,32 @@ namespace GroceryApp.Services
 
         public List<Products> SearchProduct(string productName)
         {
-            throw new NotImplementedException();
+            List<Products> reqdProducts = new List<Products>();
+            List<Products> products = GetAllProducts();
+
+
+
+
+
+            Console.WriteLine(products[0].ProductName);
+            Console.WriteLine(products.Where(p => p.ProductName.Contains(productName)).ToList());
+          //  return products.Where(p => p.ProductName.Contains(productName)).ToList();
+
+            return _context.Products.Where(p => p.ProductName.ToLower().Contains(productName.ToLower())).ToList();
+            //List<string> list =new List<string>() { "egg1", "egg2", "egg3" };
+            //List<string> newList = new List<string>();
+            //if( (list.Any(pdt => pdt.Contains(productName))))
+            //{
+
+            //}
+
+
+
+
+            // return reqdProducts;
+
         }
+
+        
     }
 }

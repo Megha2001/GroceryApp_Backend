@@ -9,6 +9,7 @@ namespace GroceryApp.Services
         public Products AddProduct(Products product);
         public Products EditProduct(int id);
         public List<Products> SearchProduct(int catId, int subCatId);
+    
         public List<Products> SearchProduct(string productName);
     }
 }
